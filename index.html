@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iXBRL to XBRL Cleaner</title>
+  <link rel="icon" type="image/png" href="./icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="xbrl.css">
+<script defer src="./xbrlvalidation.js"></script>
+</head>
+<body>
+
+  <!-- <header>
+    <div class="header-card">
+      <h3>Edgar E-File Solutions Pvt. Ltd.</h3>
+    </div>
+  </header> -->
+
+  <div class="app">
+    <h2>iXBRL → Clean XBRL HTML</h2>
+    <input type="file" id="ixbrlFile" accept=".html,.htm,.xhtml,.xml"/>
+    <br><br>
+    <button onclick="clean()">Clean & Download</button>
+    <p id="status"></p>
+  </div>
+
+  <label class="switch">
+    <input type="checkbox" id="themeSwitch">
+    <span class="slider round"></span>
+  </label>
+
+</body>
+</html>
